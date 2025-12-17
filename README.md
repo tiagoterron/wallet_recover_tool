@@ -63,7 +63,7 @@ Create a `wallets.json` file in the root folder with the following format:
 Process wallets with a range (e.g., wallets 0 to 1000):
 
 ```bash
-node recover.js 0 1000
+node script.js 0 1000
 ```
 
 ## Usage
@@ -71,7 +71,7 @@ node recover.js 0 1000
 ### Basic Command
 
 ```bash
-node recover.js <start_index> <end_index>
+node script.js <start_index> <end_index>
 ```
 
 **Parameters:**
@@ -82,13 +82,13 @@ node recover.js <start_index> <end_index>
 
 ```bash
 # Process first 1000 wallets
-node recover.js 0 1000
+node script.js 0 1000
 
 # Process wallets 1000 to 2000
-node recover.js 1000 2000
+node script.js 1000 2000
 
 # Process all wallets (if you have 5000)
-node recover.js 0 5000
+node script.js 0 5000
 ```
 
 ## Configuration
